@@ -1,3 +1,5 @@
+
+
 *, html {
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -40,4 +42,29 @@ nav{
 }
 .titulo:hover {
     cursor: default;
+}
+
+.imagen{
+width: 500px;
+}
+
+.contenedor-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.contenedor-skills .textos > h4 {
+    font-size: 35px;
+}
+
+.contenedor-skills .textos > p{
+    font-size: 20px;
+}
+
+
+.textos {
+display: flex;
+flex-direction: column;
 }
