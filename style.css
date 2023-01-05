@@ -1,7 +1,4 @@
-
-
-
-html {
+*, html {
     font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
@@ -10,6 +7,9 @@ html {
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: #303030;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .lista-items{
@@ -23,7 +23,21 @@ nav{
     font-weight: 600;
 }
 
-h1{
+.nav-item, h3{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+
+.titulo{
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 25px;
+}
+.titulo:hover {
+    cursor: default;
 }
