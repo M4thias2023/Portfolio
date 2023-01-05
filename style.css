@@ -1,0 +1,29 @@
+
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+h1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
