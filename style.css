@@ -4,8 +4,29 @@
     font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
+
+/* ------- scroll -------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #303030;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*----------------------*/
+
+
+/*-------- navbar --------*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -25,13 +46,15 @@ nav{
     font-weight: 600;
 }
 
-.nav-item, h3{
+.nav-item{
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .nav-item:hover{
     cursor: pointer;
+    color: #9E9E9E;
 }
 
 
@@ -39,32 +62,57 @@ nav{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 25px;
+    color: white;
 }
 .titulo:hover {
     cursor: default;
 }
 
 .imagen{
-width: 500px;
+    width: 700px;
 }
+
+/*---------------*/
 
 .contenedor-skills{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+}
+
+.contenedor-skills .textos > h2 {
+    font-size: 50px;
 }
 
 .contenedor-skills .textos > h4 {
-    font-size: 35px;
+    font-size: 30px;
+}
+.contenedor-skills .textos .nombre{
+    font-size: 30px;
+    color: blueviolet;
 }
 
 .contenedor-skills .textos > p{
     font-size: 20px;
 }
-
-
 .textos {
 display: flex;
 flex-direction: column;
+}
+
+
+/*------- grid -------*/
+
+.contenedor-habilidades{
+    display: grid;
+}
+
+.cuad{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.cuadrillad2{
+    background-color: green;
 }
