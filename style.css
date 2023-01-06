@@ -27,6 +27,8 @@
 
 
 /*-------- navbar --------*/
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -72,7 +74,14 @@ nav{
     width: 700px;
 }
 
+lottie-player {
+    --lottie-player-seeker-track-color: white;
+    --lottie-player-seeker-thumb-color: white;
+    --lottie-player-toolbar-icon-hover-color: white;
+    --lottie-player-toolbar-icon-active-color: white;
+    }
 /*---------------*/
+
 
 .contenedor-skills{
     display: flex;
@@ -81,7 +90,7 @@ nav{
 }
 
 .contenedor-skills .textos > h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .contenedor-skills .textos > h4 {
